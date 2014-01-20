@@ -25,7 +25,7 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="AOSPA-legacy/manifest" remote="github" revision="kitkat" />
+  <project path="manifest" name="xzzz9097/manifest" remote="github" revision="kitkat" />
 
   <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -250,13 +250,14 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="external/wpa_supplicant_8_ti" name="thoemy/wpa_supplicant_8_ti" remote="github" revision="cm-11.0" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="AOSPA-legacy/android_frameworks_av" remote="github" revision="kitkat" groups="pdk" />
-  <project path="frameworks/base" name="AOSPA-legacy/android_frameworks_base" remote="github" revision="kitkat" />
+  <project path="frameworks/base" name="xzzz9097/android_frameworks_base" remote="github" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -291,6 +292,8 @@
   <project path="hardware/libhardware" name="AOSPA-legacy/android_hardware_libhardware" remote="github" revision="kitkat" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="AOSPA-legacy/android_hardware_libhardware_legacy" remote="github" revision="kitkat" groups="pdk" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
   <project path="libcore" name="CyanogenMod/android_libcore" remote="cm" revision="cm-11.0" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -325,7 +328,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="AOSPA-legacy/android_packages_apps_Settings" remote="github" revision="kitkat"  />
+  <project path="packages/apps/Settings" name="xzzz9097/android_packages_apps_Settings" remote="github" revision="kitkat"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -427,7 +430,14 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="github" revision="kitkat" >
+  <!-- OneX repos -->
+  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-11.0" />
+  <project path="device/htc/endeavoru" name="xzzz9097/android_device_htc_endeavoru" remote="github" revision="kitkat"/>
+  <project path="kernel/htc/endeavoru" name="CyanogenMod/android_kernel_htc_endeavoru" remote="github" revision="cm-11.0"/>
+  <project path="device/htc/tegra3-common" name="CyanogenMod/android_device_htc_tegra3-common" remote="github" revision="cm-11.0"/>
+
+  <project path="vendor/pa" name="xzzz9097/android_vendor_pa" remote="github" revision="kitkat" >
+
     <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
 

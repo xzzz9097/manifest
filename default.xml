@@ -30,7 +30,7 @@
 
   <project path="manifest" name="xzzz9097/manifest" remote="github" revision="kitkat" />
 
-  <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="kitkat" >
+  <project path="build" name="xzzz9097/android_build" remote="github" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -440,7 +440,7 @@
   <!-- OneX repos -->
   <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-11.0" />
   <project path="device/htc/endeavoru" name="xzzz9097/android_device_htc_endeavoru" remote="github" revision="kitkat"/>
-  <project path="kernel/htc/endeavoru" name="CyanogenMod/android_kernel_htc_endeavoru" remote="github" revision="cm-11.0"/>
+  <project path="kernel/htc/endeavoru" name="xzzz9097/android_kernel_htc_endeavoru" remote="github" revision="cm-11.0"/>
   <project path="device/htc/tegra3-common" name="CyanogenMod/android_device_htc_tegra3-common" remote="github" revision="cm-11.0"/>
 
   <project path="vendor/pa" name="xzzz9097/android_vendor_pa" remote="github" revision="kitkat" >

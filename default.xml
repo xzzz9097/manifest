@@ -23,7 +23,14 @@
            review="review.cyanogenmod.org" />
 
   <remote  name="sm"
-           fetch="https://github.com/SaberMod" />           
+           fetch="https://github.com/SaberMod" />
+
+  <remote name="vanir"
+          fetch="https://github.com/VanirAOSP/"
+          review="vaniraosp.goo.im" />
+
+    <remote name="linaro"
+          fetch="git://android.git.linaro.org/" />
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
@@ -419,6 +426,8 @@
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="sm" revision="sm-kk-mr1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="sm" revision="sm-kk-mr1"/>
+  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2014" remote="vanir" revision="2014.01" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="linaro" revision="master" />
   <project path="prebuilts/misc" name="CyanogenMod/android_prebuilts_misc" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />

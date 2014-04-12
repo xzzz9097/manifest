@@ -45,13 +45,13 @@
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="AOSPA-legacy/android_art" remote="github" revision="kitkat" />
-  <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-11.0" />
+  <project path="art" name="xzzz9097/android_art" remote="github" revision="kitkat" />
+  <project path="bionic" name="bionic" remote="vanir" revision="kk44" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="cm" revision="cm-11.0" />
+  <project path="dalvik" name="dalvik" remote="vanir" revision="kk44" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -316,7 +316,7 @@
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
-  <project path="libcore" name="CyanogenMod/android_libcore" remote="cm" revision="cm-11.0" />
+  <project path="libcore" name="libcore" remote="vanir" revision="kk44" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />

@@ -194,6 +194,7 @@
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" remote="cm" revision="cm-11.0" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
@@ -367,7 +368,7 @@
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" remote="cm" revision="cm-11.0" />
-  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" remote="cm" revision="cm-11.0" />
+  <project path="packages/providers/DownloadProvider" name="AOSPA-legacy/android_packages_providers_DownloadProvider" remote="github" revision="kitkat" />
   <project path="packages/providers/MediaProvider" name="AOSPA-legacy/android_packages_providers_MediaProvider" remote="github" revision="kitkat" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="AOSPA-legacy/android_packages_providers_TelephonyProvider" remote="github" revision="kitkat" />

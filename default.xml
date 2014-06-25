@@ -32,7 +32,7 @@
     <remote name="linaro"
           fetch="git://android.git.linaro.org/" />
 
-  <default revision="refs/tags/android-4.4.3_r1.1"
+  <default revision="refs/tags/android-4.4.4_r1"
            remote="aosp"
            sync-c="true"
            sync-f="true"
@@ -369,7 +369,7 @@
   <project path="packages/apps/Lightbulb" name="AOSPA/android_packages_apps_Lightbulb" remote="github" revision="kitkat" />
   <project path="packages/apps/Mms" name="AOSPA-legacy/android_packages_apps_Mms" remote="github" revision="kitkat" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/ParanoidOTA" name="AOSPA-legacy/android_packages_apps_ParanoidOTA" remote="github" revision="kitkat" />

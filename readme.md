@@ -34,7 +34,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b lollipop
+$ repo init -u https://github.com/AOSPA-legacy/manifest -b lollipop
 ```
 
 ### Downloading the source tree ###
@@ -81,7 +81,7 @@ $ ./rom-build.sh DEVICE
 
 We're open source and patches are always welcome!
 
-You can see the status of all patches at [Gerrit Code Review](https://gerrit.paranoidandroid.co/).
+You can see the status of all patches at [Gerrit Code Review](https://gerrit.aospal.com/).
 
 ### Following the standard workflow ###
 
@@ -91,7 +91,7 @@ $ cd WORKSPACE
 
 # Create a new branch on the specific project you are going to work on
 # For example, `repo start fix-clock AOSPA/android_frameworks_base`
-$ repo start BRANCH AOSPA/PROJECT
+$ repo start BRANCH AOSPA-legacy/PROJECT
 
 # Go inside the project you are working on
 $ cd PROJECT

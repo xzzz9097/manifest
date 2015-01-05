@@ -383,6 +383,8 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-12.0" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="github" revision="cm-12.0" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
@@ -520,6 +522,11 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+  <project path="device/htc/endeavoru" name="CyanogenMod/android_device_htc_endeavoru" remote="github" revision="cm-12.0" />
+  <project path="device/htc/tegra3-common" name="CyanogenMod/android_device_htc_tegra3-common" remote="github" revision="cm-12.0" />
+  <project path="kernel/htc/endeavoru" name="CyanogenMod/android_kernel_htc_endeavoru" remote="github" revision="cm-12.0" />
+  <project path="vendor/htc" name="thoemy/proprietary_vendor_htc" remote="github" revision="cm-12.0" />
 
   <project path="vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="github" revision="lollipop" >
     <copyfile src="build.sh" dest="rom-build.sh" />

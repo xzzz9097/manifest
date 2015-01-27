@@ -22,8 +22,8 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="manifest" name="AOSPA-legacy/manifest" remote="github" revision="lollipop" />
-  <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="lollipop" >
+  <project path="manifest" name="xzzz9097/manifest" remote="github" revision="lollipop" />
+  <project path="build" name="xzzz9097/android_build" remote="github" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   

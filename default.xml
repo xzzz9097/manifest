@@ -19,7 +19,7 @@
            sync-j="4" />
 
   <project path="manifest" name="xzzz9097/manifest" remote="github" revision="lollipop" />
-  <project path="build" name="xzzz9097/android_build" remote="github" revision="lollipop" >
+  <project path="build" name="xzzz9097/android_build" remote="github" revision="lollipop-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
